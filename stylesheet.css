@@ -18,6 +18,9 @@ body {
 
 #search {
     border-bottom: 3px solid #6d6d6d;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
     padding: 0 15px 0 15px;
     font-size: 1.5em;
     font-family: ;
