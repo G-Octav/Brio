@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    background-image: url("bg.gif");
+    background-size: cover;
+}
+
+#Content {
+    color: white;
+}
+
+#p-header {
+    font-family: monospace;
+    margin-left: 150px;
+    margin-top: 150px;
+    font-size: 1em;
+    width: 30%;
+}
+
+#search {
+    border-bottom: 3px solid #6d6d6d;
+    padding: 0 15px 0 15px;
+    font-size: 1.5em;
+    font-family: ;
+    margin-top: 25px;
+    background: white;
+    height: 50px;
+    width: 100%;
+}
