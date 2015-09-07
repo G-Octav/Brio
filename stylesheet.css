@@ -18,13 +18,12 @@ body {
 
 #p-header {
     font-family: monospace;
-    margin-left: 150px;
-    margin-top: 150px;
+    margin-left: 100px;
+    margin-top: 50px;
     font-size: 1em;
     width: 30%;
     float: left;
     color: #b4bdc7;
-    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
 }
 
 #p-header p {
