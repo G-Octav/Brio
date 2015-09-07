@@ -1,11 +1,9 @@
 body {
     margin: 0;
-    background-image: url("bg.gif");
-    background-size: cover;
+    background: #2a4b6c;
 }
 
 #Content {
-    color: white;
 }
 
 #p-header {
@@ -14,6 +12,17 @@ body {
     margin-top: 150px;
     font-size: 1em;
     width: 30%;
+    float: left;
+    color: #b4bdc7;
+}
+
+#p-header p {
+    line-height: 1.4em;
+    word-spacing: 0.1em;
+}
+
+#p-header h1 {
+    color: #fafafa;
 }
 
 #search {
@@ -25,32 +34,27 @@ body {
     font-size: 1.5em;
     font-family: ;
     margin-top: 25px;
-    background: white;
+    background: #f5f5f5;
     height: 50px;
     width: 100%;
-    border-top-right-radius: 50px;
-    border-bottom-right-radius: 50px;
-    border-top-left-radius: 50px;
-    border-bottom-left-radius: 50px;
     outline: 0;
 }
 
 #searchbt {
     width: 50px;
     height: 47px;
-    background: #d8d8d8;
+    background: #58799a;
     float: right;
     margin-top: -50px;
     border-bottom: 3px solid #222222;
     position: relative;
     background-image: url("rsc/search.png");
     background-size: contain;
-    border-top-right-radius: 50%;
-    border-bottom-right-radius: 50%;
+
 }
 
 #searchbt:hover {
-    background: #bcbcbc;
+    background: #7e9dbc;
     border-bottom: 3px solid black;
     background-image: url("rsc/search.png");
     background-size: contain;
@@ -61,4 +65,39 @@ body {
     margin-top: 3;
     text-align: center;
     font-size: 0.8em;
+}
+
+#p-content {    
+    width: 40%;
+    float: right;
+    margin-top: 50px;
+    margin-right: 150px;
+    height: 70%;
+    background: #ffffff;
+    color: #5c5c5c;
+    border-radius: 15px;
+    padding: 25px;
+    font-family: monospace;
+    border-bottom: 3px solid #222222;
+}
+
+#p-content hr {
+    margin-left: -25px;
+    margin-right: -25px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    border-top: 0;
+    border-style: dashed;
+}
+
+#p-content h3 {
+    font-size: 1.5em;
+}
+
+#footer {
+    position:fixed;
+    bottom:0;
+    height: 150px;
+    width: 100%;
+    background: #1e344a;
 }
