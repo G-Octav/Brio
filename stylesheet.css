@@ -28,4 +28,37 @@ body {
     background: white;
     height: 50px;
     width: 100%;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    outline: 0;
+}
+
+#searchbt {
+    width: 50px;
+    height: 47px;
+    background: #d8d8d8;
+    float: right;
+    margin-top: -50px;
+    border-bottom: 3px solid #222222;
+    position: relative;
+    background-image: url("rsc/search.png");
+    background-size: contain;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+#searchbt:hover {
+    background: #bcbcbc;
+    border-bottom: 3px solid black;
+    background-image: url("rsc/search.png");
+    background-size: contain;
+    cursor: pointer;
+}
+
+#searchfooter {
+    margin-top: 3;
+    text-align: center;
+    font-size: 0.8em;
 }
