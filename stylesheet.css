@@ -68,6 +68,8 @@ body {
 }
 
 #p-content {  
+    display: none;
+    overflow: auto;
     width: 40%;
     float: right;
     margin-top: 50px;
