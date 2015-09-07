@@ -81,6 +81,15 @@ body {
     border-bottom: 3px solid #222222;
 }
 
+#p-content p {
+    margin-left: -25px;
+    margin-right: -25px;
+    padding: 5px 25px 5px 25px;
+    border-top: 1px dashed black;
+    border-bottom: 1px dashed black;
+    background: #f4f4f4;
+}
+
 #p-content hr {
     margin-left: -25px;
     margin-right: -25px;
@@ -90,8 +99,17 @@ body {
     border-style: dashed;
 }
 
+#p-content ul {
+    list-style: none;
+    margin-top: -15px;
+}
+
 #p-content h3 {
-    font-size: 1.5em;
+    font-size: 1.8em;
+}
+
+.songdesc {
+    margin-top: 50px;
 }
 
 #footer {
