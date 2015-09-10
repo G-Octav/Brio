@@ -55,7 +55,7 @@ body {
     
     border-top: 1px solid gray;
     position: absolute;
-    bottom: 0px;
+    margin-bottom: 0px;
     left: 0px;
     padding: 5px 5px 5px 5px;
     overflow: hidden;
@@ -97,7 +97,7 @@ body {
     float: right;
     margin-top: 50px;
     margin-right: 150px;
-    height: 70%;
+    height: 77%;
     background: #ffffff;
     color: #5c5c5c;
     padding: 25px;
