@@ -9,6 +9,7 @@
             $(document).ready(function() {
                 $("#searchbt").click(function() {
                     $("#p-content").slideDown();
+                    $(this).css("transition-property", "width");
                 });
             });
         </script>
@@ -40,7 +41,7 @@
             <div id="p-content">
                 <h3>John Lennon - Imagine</h3>
                 <hr>
-                <img src="rsc/art/1.jpg" style="float: right;" width=150>
+                <img src="rsc/art/1.jpg" style="float: right;" width=150 style="border-radius: 50%;">
                 <div class="songauthor"><b>Author:</b> John Lennon</div>
                 <div class="songdate"><b>Date:</b> 11 October 1971</div>
                 <div class="songgenre"><b>Genre:</b> Soft Rock</div>
