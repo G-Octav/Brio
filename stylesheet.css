@@ -54,12 +54,14 @@ body {
 #songfooter {
     
     border-top: 1px solid gray;
-    position: absolute;
+    position: relative;
+    bottom:0%;
     margin-bottom: 0px;
     left: 0px;
     padding: 5px 5px 5px 5px;
     overflow: hidden;
     width: 100%;
+
 }
 
 #searchbt {
